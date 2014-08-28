@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<p>Displaying defferent operations like addition, subtraction, multiplication, division etc where two variables are y=5 and z=2.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+
+
+<script>
+function myFunction() {
+    y = 5;
+    z = 2;
+    x = y + z;
+	a = y-z;
+	b = y*z;
+	c = y/z;
+	d = ++y;
+	e = --y;
+	
+    document.getElementById("demo").innerHTML = x;
+	document.getElementById("demo1").innerHTML = a;
+	document.getElementById("demo2").innerHTML = b;
+	document.getElementById("demo3").innerHTML = c;
+	document.getElementById("demo4").innerHTML = d;
+	document.getElementById("demo5").innerHTML = e;
+}
+</script>
+
+</body>
+</html>
